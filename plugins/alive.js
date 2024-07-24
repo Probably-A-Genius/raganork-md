@@ -135,7 +135,7 @@ Module({
   const start = new Date().getTime()
   let sent_msg = await message.sendReply('*❮ ᴛᴇsᴛɪɴɢ ᴘɪɴɢ ❯*')
   const end = new Date().getTime()
-  await message.edit('*ʟᴀᴛᴇɴᴄʏ: ' + (end - start) + ' _ᴍs_*',message.jid,sent_msg.key)
+  await message.edit('*lATENCY⚡: ' + (end - start) + ' _ᴍs_*',message.jid,sent_msg.key)
 }));
 Module({
   pattern: 'uptime',
