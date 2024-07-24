@@ -65,7 +65,7 @@ Module({
   var menu = `╭═══〘 ${BOT_INFO.split(";")[0]} 〙═══⊷❍
 ┃${star}╭──────────────
 ┃${star}│
-┃${star}│ _*Owner*_ : ${BOT_INFO.split(";")[1]}
+┃${star}│ _*✨Owner*_ : ${BOT_INFO.split(";")[1]}
 ┃${star}│ _*User*_ : ${message.senderName.replace( /[\r\n]+/gm, "" )}
 ┃${star}│ _*Mode*_ : ${MODE}
 ┃${star}│ _*Server*_ : ${__dirname.startsWith('/skl')?"Heroku":"Private (VPS)"}
